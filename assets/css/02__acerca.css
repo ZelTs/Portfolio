@@ -1,0 +1,70 @@
+.info__acerca{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Arimo', sans-serif;
+    background-image: url(../img/img-bakcground.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 10rem;
+}
+
+.img__autor{
+    height: 500px;
+    width: 500px;
+    margin-top: 5rem;
+    border-radius: 100%;
+}
+
+.nombre__autor{
+    text-align: center;
+    transition: 0.4s all;
+}
+
+.nombre__autor:hover{
+    color: var(--naranja);
+}
+
+.desc__autor{
+    color: var(--naranja);
+    font-size: 3.5rem;
+    transition: 0.4s all;
+    text-align: center;
+    cursor: default;
+    margin-bottom: 2rem;
+}
+
+.desc__autor:hover{
+    color: var(--general);
+}
+
+.desc__autor:before{
+    content:"— "
+}
+
+.desc__autor:after{
+    content:" —"
+}
+
+.iconos{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.svg__size__desc{
+    width: 120px;
+}
+
+.iconos__text{
+    margin-top: 1rem;
+    color: var(--general);
+    font-size: 1.2rem;
+    text-align: center;
+    transition: 0.4s all;
+    cursor: default;
+}
+
+.iconos__text:hover{
+    color: var(--naranja);
+}

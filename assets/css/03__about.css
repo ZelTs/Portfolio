@@ -1,0 +1,27 @@
+.about{
+    color: var(--text-gray);
+    background-color: var(--header-background);
+    padding-top: 1rem;
+}
+
+.about__name{
+    margin-top: 4rem;
+    color: var(--text-gray);
+    font-size: 1.8rem;
+    text-align:justify;
+}
+
+.about__desc{
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.about__firma{
+    font-size: 7rem;
+    color: var(--naranja);
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Zeyada', cursive;
+}

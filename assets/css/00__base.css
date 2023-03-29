@@ -1,0 +1,30 @@
+:root{
+    --general-background: #181818;
+    --header-background: #2b2b2b;
+    --negro: #2e2e2e;
+    --general: #e6e6e6;
+    --text-gray: #dacfcf;
+    --text-link: #2A7AE4;
+    --naranja: #FF9300;
+    --negro: #000000;
+}
+
+body{
+    background-color: var(--general-background);
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.title__style{
+    font-size: 5rem;
+    color: var(--general);
+    cursor: default;
+    margin: 5rem 0;
+}
+
+.link__text{
+    color: var(--naranja);
+}

@@ -1,0 +1,11 @@
+.svg__img{
+    stroke:var(--general);
+    width: 60px;
+    transition: 0.3s all;
+}
+
+.svg__img:hover{
+    stroke: var(--naranja);
+    transform: scale(1.2);
+}
+

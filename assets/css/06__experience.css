@@ -1,0 +1,57 @@
+.experience{
+    background-color: #242424;
+    padding-top: 1rem;
+}
+
+.experience__card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text__exp-container{
+    margin: 0 0 0 2.2rem;
+}
+
+.exp__name{
+    margin: 1rem 0;
+    color: var(--naranja);
+    font-size: 2rem;
+}
+
+.exp__desc{
+    color: var(--general);
+    font-size: 1.2rem;
+}
+
+.container__btn{
+    display: flex;
+    margin: 5rem 0 3rem 0;
+}
+
+.boton{
+    background-color: var(--general);
+    padding: 1rem 3rem;
+    border: none;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    color: var(--negro);
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.btn__repositorio:hover{
+    background-color: var(--naranja);
+    color: var(--general);
+}
+
+.btn__demo{
+    background-color: var(--naranja);
+    color: var(--general);
+}
+
+.btn__demo:hover{
+    background-color: var(--general);
+    color: var(--negro);
+
+}
