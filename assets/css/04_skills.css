@@ -1,24 +1,20 @@
-.skills{
+.skills {
     background-image: url(../img/wp_skills.svg);
     background-repeat: no-repeat;
-}
-
-.skill__title{
-    padding-top: 10rem;
     padding-bottom: 4rem;
-    color: var(--general);
-    text-align: left;
-    cursor: default;
 }
 
-.skill__section{
+.skill__title {
+    padding-top: 2rem;
+}
+
+.skill__section {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
-
+    justify-content: space-evenly;
 }
 
-.skill__box{
+.skill__box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,21 +25,18 @@
     transition: 0.4s all;
 }
 
-.skill__box:hover{
+.skill__box:hover {
     transform: scale(1.05);
 }
 
-.img__skills{
+.img__skills {
     width: 160px;
     height: 140px;
     transition: 0.4S all;
 }
 
-.img__skills:hover{
 
-}
-
-.desc__img-skill{
+.desc__img-skill {
     margin-top: 2rem;
     font-size: 1.5rem;
     color: #2e2e2e;
