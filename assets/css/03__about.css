@@ -5,15 +5,15 @@
 }
 
 .about__name{
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: var(--text-gray);
     font-size: 1.8rem;
     text-align:justify;
 }
 
 .about__desc{
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
     font-size: 1.8rem;
     text-align: justify;
 }

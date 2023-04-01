@@ -5,13 +5,13 @@
     font-family: 'Arimo', sans-serif;
     background-image: url(../img/img-bakcground.svg);
     background-repeat: no-repeat;
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
 }
 
 .img__autor{
     height: 500px;
     width: 500px;
-    margin-top: 5rem;
+    margin-top: 4rem;
     border-radius: 100%;
 }
 

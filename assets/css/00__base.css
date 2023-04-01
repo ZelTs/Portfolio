@@ -22,7 +22,7 @@ body{
     font-size: 5rem;
     color: var(--general);
     cursor: default;
-    margin: 5rem 0;
+    margin: 2rem 0;
 }
 
 .link__text{
