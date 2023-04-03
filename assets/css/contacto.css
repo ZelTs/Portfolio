@@ -1,0 +1,143 @@
+.contacto{
+    background-image: linear-gradient(rgb(143, 77, 77, 0.4), rgb(88, 88, 88, 0.1));
+    padding-bottom: 3rem;
+}
+
+.tittle__contacto{
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+}
+.contacto__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #2e2e2e;
+    margin-top: 1rem;
+    padding-top: 4rem;
+    box-shadow: 0 10px 10px rgb(0, 0, 0);
+}
+
+.form__grupo{
+    width: 80%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form__label {
+    position: relative;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form__input {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 60px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.form__input--mensaje{
+    overflow: hidden;
+    resize: none;
+}
+
+.form__input:focus{
+    border-color: var(--naranja);
+
+    transition: all 0.2s;
+}
+
+.form__input--invalid{
+    border: 2px solid var(--naranja);
+}
+
+.form__input-error{
+    color: var(--naranja);
+
+    position: absolute;
+    top: 65px;
+    left: 0px;
+}
+
+.form__input-error--message{
+    position: relative;
+    top: -45px;
+}
+
+.label-span {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    transition: all 0.2s;
+    pointer-events: none;
+
+    border-radius: 6px;
+
+    color: var(--negro);
+}
+
+.form__input:focus+.label-span{
+    top: 10px;
+    left: 16px;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+
+    color: var(--naranja);
+}
+
+.form__input.full+.label-span {
+    top: 10px;
+    left: 16px;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.form__btn{
+    cursor: pointer;
+
+    padding: 8px 16px;
+    margin-bottom: 32px;
+
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 50%;
+    border-radius: 10px;
+    background: var(--naranja);
+    border: none;
+
+    transition: all 150ms;
+}
+
+.form__btn:hover{
+    transition: all 150ms;
+    transform: scale(1.02);
+}
+
+.form__btn:disabled{
+    background: #acacac;
+    border: 2px solid #acacac;
+
+    color: #5f5f5f;
+
+    opacity: 0.6;
+
+    transition: all 150ms;
+}

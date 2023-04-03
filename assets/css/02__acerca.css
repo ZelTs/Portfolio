@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-around;
     font-family: 'Arimo', sans-serif;
-    background-image: url(../img/img-bakcground.svg);
+    background-image:  linear-gradient(rgb(43, 43, 43, 0.2), rgba(43, 43, 43, 0.5)), url(../img/img-bakcground.svg);
     background-repeat: no-repeat;
     padding-bottom: 8rem;
 }

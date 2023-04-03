@@ -1,5 +1,6 @@
 .experience {
-    background-color: #242424;
+    background: linear-gradient(rgb(88, 88, 88, 0.5), rgba(143, 77, 77, 0.4));
+    background-repeat: none;
     padding-top: 1rem;
     padding-bottom: 8rem;
 }
@@ -13,8 +14,10 @@
     align-items: center;
     justify-content: space-evenly;
     margin-top: 6rem;
+    border-radius: 10px;
     background-color: #2e2e2e;
     padding: 3rem 2.5rem;
+    box-shadow: 10px 10px 15px;
 }
 
 .exp__header{

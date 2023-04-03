@@ -1,7 +1,7 @@
 .header {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: var(--header-background);
+    background-color: rgb(43, 43, 43, 0.2);
     display: flex;
     align-items: center;
     justify-content: space-between;
