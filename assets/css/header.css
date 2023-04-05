@@ -43,3 +43,18 @@
     border: 3.5px solid var(--naranja);
     color: var(--naranja);
 }
+
+@media (max-width: 375px){
+    .btn__header{
+        display: none;
+    }
+
+    .header__logo{
+        width: 25%;
+    }
+
+    .header__title{
+        font-size: 1.2rem;
+        font-weight: normal;
+    }    
+}

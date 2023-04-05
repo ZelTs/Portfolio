@@ -1,0 +1,132 @@
+.info__acerca {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Arimo', sans-serif;
+    background-image: linear-gradient(rgb(43, 43, 43, 0.2), rgba(43, 43, 43, 0.5)), url(../img/img-bakcground.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 8rem;
+}
+
+@media (max-width: 375px){
+    .info__acerca{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    
+}
+
+.img__autor {
+    height: 500px;
+    width: 500px;
+    margin-top: 4rem;
+    border-radius: 100%;
+}
+
+@media (max-width: 375px) {
+    .img__autor {
+        height: 120px;
+        width: 120px;
+        margin-top: -0.8rem;
+    }
+}
+
+.nombre__autor {
+    font-size: 4rem;
+    color: var(--general);
+    cursor: default;
+    text-align: center;
+    transition: 0.4s all;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 375px) {
+    .nombre__autor {
+        font-size: 1.6rem;
+        color: var(--general);
+        cursor: default;
+        padding: 2rem 0 0 0;
+    }
+}
+
+.nombre__autor:hover {
+    color: var(--naranja);
+}
+
+.desc__autor {
+    color: var(--naranja);
+    font-size: 3.5rem;
+    transition: 0.4s all;
+    text-align: center;
+    cursor: default;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 375px) {
+    .desc__autor {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+}
+
+.desc__autor:hover {
+    color: var(--general);
+}
+
+@media (max-width: 1024px) {
+
+    .desc__autor:before {
+        content: "— "
+    }
+
+    .desc__autor:after {
+        content: " —"
+    }
+}
+
+.iconos {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 375px) {
+    .iconos {
+        margin-top: -1rem;
+    }
+
+}
+
+.svg__size__desc {
+    width: 120px;
+}
+
+@media (max-width: 375px) {
+    .svg__size__desc {
+        width: 35px;
+    }
+}
+
+.iconos__text {
+    margin-top: 1rem;
+    color: var(--general);
+    font-size: 1.2rem;
+    text-align: center;
+    transition: 0.4s all;
+    cursor: default;
+}
+
+@media (max-width: 375px) {
+    .iconos__text {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .iconos__text:hover {
+        color: var(--naranja);
+    }
+}

@@ -9,6 +9,11 @@
     --negro: #000000;
 }
 
+html {   
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+    }
+
 body{
     background-color: var(--general-background);
     font-family: 'Raleway', sans-serif;
@@ -22,7 +27,12 @@ body{
     font-size: 4rem;
     color: var(--general);
     cursor: default;
-    padding: 2rem 0;
+}
+
+@media (max-width: 375px){
+    .title__style{
+        font-size: 1.6rem;
+    }
 }
 
 .link__text{
