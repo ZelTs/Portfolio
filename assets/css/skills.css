@@ -46,6 +46,12 @@
     }
 }
 
+@media (max-width: 336px){
+    .skill__box{
+        margin-bottom: 1rem;
+    }
+}
+
 .skill__box:hover {
     transform: scale(1.05);
 }

@@ -40,6 +40,12 @@
     }
 }
 
+@media (max-width: 336px){
+    .about__desc{
+        font-size: 0.8rem;
+    }
+}
+
 .about__firma {
     font-size: 7rem;
     color: var(--naranja);
@@ -50,5 +56,11 @@
 @media (max-width: 375px) {
     .about__firma {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 336px){
+    .about__firma{
+        font-size: 1.75rem;
     }
 }

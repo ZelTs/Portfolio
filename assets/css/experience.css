@@ -121,6 +121,12 @@
     }
 }
 
+@media (max-width: 336px){
+    .boton{
+        padding: 0.8rem 1rem;
+    }
+}
+
 @media (min-width: 1024px) {
 
     .btn__repositorio:hover {

@@ -51,6 +51,12 @@
     }
 }
 
+@media (max-width: 336px){
+    .nombre__autor{
+        font-size: 1.3rem;
+    }
+}
+
 .nombre__autor:hover {
     color: var(--naranja);
 }
@@ -68,6 +74,13 @@
     .desc__autor {
         font-size: 1.2rem;
         margin-bottom: 0;
+    }
+}
+
+@media (max-width: 336px){
+    .desc__autor{
+        font-size: 0.9rem;
+        margin-top: -0.8rem;
     }
 }
 
