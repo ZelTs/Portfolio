@@ -24,6 +24,12 @@
     }
 }
 
+@media (max-width: 320px){
+    .about__name{
+        display: none;
+    }
+}
+
 .about__desc {
     margin-top: 3rem;
     margin-bottom: 4rem;
@@ -40,9 +46,9 @@
     }
 }
 
-@media (max-width: 336px){
+@media (max-width: 320px){
     .about__desc{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -59,7 +65,7 @@
     }
 }
 
-@media (max-width: 336px){
+@media (max-width: 320px){
     .about__firma{
         font-size: 1.75rem;
     }

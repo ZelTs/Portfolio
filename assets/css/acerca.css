@@ -51,9 +51,9 @@
     }
 }
 
-@media (max-width: 336px){
+@media (max-width: 320px){
     .nombre__autor{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -77,7 +77,7 @@
     }
 }
 
-@media (max-width: 336px){
+@media (max-width: 320px){
     .desc__autor{
         font-size: 0.9rem;
         margin-top: -0.8rem;
