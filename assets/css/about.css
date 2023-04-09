@@ -1,14 +1,8 @@
 .about {
-    color: var(--text-gray);
-    background-image: linear-gradient(rgb(43, 43, 43, 0.5), rgba(88, 88, 88, 0.5));
+    background: var(--background-nd-white);
+    color: var(--black);
+
     padding-top: 1rem;
-}
-
-@media (max-width: 375px) {
-
-    .about {
-        padding-top: 2rem;
-    }
 }
 
 .about__name {
@@ -18,55 +12,18 @@
     text-align: justify;
 }
 
-@media (max-width: 375px) {
-    .about__name {
-        display: none;
-    }
-}
-
-@media (max-width: 320px){
-    .about__name{
-        display: none;
-    }
-}
-
 .about__desc {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.93rem;
+    line-height: 1.2;
     text-align: justify;
 }
 
-@media (max-width: 375px) {
-    .about__desc {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        font-size: 0.92rem;
-        text-align: justify;
-    }
-}
-
-@media (max-width: 320px){
-    .about__desc{
-        font-size: 0.7rem;
-    }
-}
-
 .about__firma {
-    font-size: 7rem;
-    color: var(--naranja);
+    font-size: 2.5rem;
+    color: var(--orange);
+    padding-top: 1rem;
     text-align: center;
     font-family: 'Zeyada', cursive;
-}
-
-@media (max-width: 375px) {
-    .about__firma {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 320px){
-    .about__firma{
-        font-size: 1.75rem;
-    }
 }
