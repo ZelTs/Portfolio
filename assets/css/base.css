@@ -28,18 +28,17 @@ body {
     padding-left: 4%;
 }
 
-.tittle{
-    font-size: 1.2rem;
+.title{
+    font-size: 1.6rem;
     color: var(--black);
 }
 
-.tittle__section{
-    font-size: 1.6rem;
+.title__section{
     font-weight: bold;
 }
 
 .sub__tittle{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: var(--black);
 }
 
