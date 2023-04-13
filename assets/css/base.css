@@ -28,6 +28,11 @@ body {
     padding-left: 4%;
 }
 
+
+.italic__style {
+    font-style: italic;
+}
+
 .title{
     font-size: 1.6rem;
     color: var(--black);
