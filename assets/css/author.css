@@ -1,7 +1,6 @@
 .author{
     display: flex;
     flex-direction: column;
-    font-family: 'Arimo', sans-serif;
     background-color: var(--background-white);
     background-repeat: no-repeat;
     padding: 0 0 1rem 0;
@@ -38,7 +37,7 @@
 }
 
 .author__description{
-    padding-top: 1rem;
+    padding-top: 2rem;
     font-size: 0.9rem;
     color: var(--black);
 }

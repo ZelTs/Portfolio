@@ -1,23 +1,17 @@
 .about {
-    background: var(--background-nd-white);
+    background: var(--background-white);
     color: var(--black);
 
     padding-top: 1rem;
 }
 
-.about__name {
-    margin-top: 2rem;
-    color: var(--text-gray);
-    font-size: 1.8rem;
-    text-align: justify;
-}
-
 .about__desc {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 0.93rem;
+    font-size: 0.9rem;
     line-height: 1.2;
     text-align: justify;
+    color:  var(--black);
 }
 
 .about__firma {

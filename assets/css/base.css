@@ -1,10 +1,11 @@
 :root {
     --background-black: #181818;
-    --background-white: #ECECEC;
+    --background-white: #f1f1f100;
     --background-nd-black: #2e2e2e;
-    --background-nd-white: #EAF2FD;
+    --background-nd-white: #faf7ec;
 
     --black: #464646;
+    --skill-box: rgb(224, 224, 224);
     --white: #e6e6e6;
     --blue: #2A7AE4;
     --orange: #ff9500d0;
@@ -19,7 +20,7 @@ html {
 
 body {
     background-color: var(--background-nd-white);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
 
 .container {
@@ -30,6 +31,11 @@ body {
 .tittle{
     font-size: 1.2rem;
     color: var(--black);
+}
+
+.tittle__section{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .sub__tittle{
