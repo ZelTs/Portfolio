@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: var(--background-white);
     background-repeat: no-repeat;
-    padding: 0 0 1rem 0;
+    padding: 1rem 0 1rem 0;
 }
 
 .info__author-container {
@@ -21,7 +21,7 @@
 }
 
 .tittle__author {
-    padding-top: 1.6rem;
+    padding-top: 2rem;
     text-align: center;
     font-weight: bold;
     color: var(--black);
@@ -37,7 +37,7 @@
 }
 
 .author__description{
-    padding-top: 2rem;
+    padding-top: 3rem;
     font-size: 0.9rem;
     color: var(--black);
 }
@@ -64,6 +64,6 @@
 
 .svg__size__desc {
     padding-top: 0.8rem;
-    width: 42px;
-    height: 38px;
+    width: 52px;
+    height: 48px;
 }

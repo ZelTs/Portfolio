@@ -1,8 +1,11 @@
 .about {
     background: var(--background-white);
     color: var(--black);
-
     padding-top: 1rem;
+}
+
+.about__tittle{
+    padding-bottom: 1rem;
 }
 
 .about__desc {
@@ -17,7 +20,7 @@
 .about__firma {
     font-size: 2.5rem;
     color: var(--orange);
-    padding-top: 1rem;
+    padding-top: 2rem;
     text-align: center;
     font-family: 'Zeyada', cursive;
 }
