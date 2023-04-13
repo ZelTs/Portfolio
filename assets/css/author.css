@@ -38,7 +38,8 @@
 
 .author__description{
     padding-top: 3rem;
-    font-size: 0.9rem;
+    font-size: 1.15rem;
+    text-align: justify;
     color: var(--black);
 }
 
