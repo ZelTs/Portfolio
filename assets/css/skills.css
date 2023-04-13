@@ -19,14 +19,14 @@
     align-items: center;
     box-shadow: 0 10px 10px #222222;
     background-color: var(--skill-box);
-    padding: 0.6rem 1.2rem;
-    margin: 0.5rem;
+    padding: 0.6rem 1.5rem;
+    margin: 0.3rem;
     border-radius: 10px;
 }
 
 .img__skills {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     transition: 0.4S all;
 }
 
