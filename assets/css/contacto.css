@@ -20,6 +20,11 @@
     margin-bottom: 1rem;
 }
 
+.text__contacto{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
 .input__section{
     width: 90%;
     z-index: 1;
