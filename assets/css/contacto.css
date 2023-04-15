@@ -107,12 +107,11 @@
 .form__btn {
     cursor: pointer;
     padding: 0.7rem 0.7rem;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
     color: white;
     font-size: 1.2rem;
     background: var(--orange);
     border: none;
-    border-radius: 1px;
     width: 75%;
 }
 
