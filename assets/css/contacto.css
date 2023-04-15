@@ -26,7 +26,7 @@
     line-height: 1.2;
 }
 .input__section{
-    width: 90%;
+    width: 75%;
     z-index: 1;
     display: flex;
 }
@@ -113,7 +113,7 @@
     background: var(--orange);
     border: none;
     border-radius: 1px;
-    width: 90%;
+    width: 75%;
 }
 
 .form__btn:disabled {
