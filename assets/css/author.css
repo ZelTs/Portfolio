@@ -58,7 +58,6 @@
 }
 
 .icon__legend{
-    color: var(--black);
     font-size: 0.6rem;
     font-weight: bold;
     cursor: default;

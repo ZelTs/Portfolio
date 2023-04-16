@@ -65,6 +65,14 @@ body {
     stroke: var(--orange);
 }
 
-.svg__blue{
-    stroke: var(--blue);
+.svg__white{
+    stroke: var(--white);
+}
+
+.color__black{
+    color: var(--black);
+}
+
+.color__white{
+    color: var(--white);
 }
