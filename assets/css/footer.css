@@ -1,7 +1,6 @@
 .footer{
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-image: url(../img/bg.jpg);
     margin-top: 3rem;
     padding: 3rem;
@@ -9,12 +8,13 @@
 
 .footer__title{
     color: var(--orange);
-    font-size: 0.6rem;
+    font-size: 0.75rem;
     margin: 4rem 0 2rem 0;
+    text-align: center;
 }
 
 .icons__footer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
