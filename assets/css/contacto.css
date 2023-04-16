@@ -44,7 +44,7 @@
 
     border: 0;
     border-radius: 2px;
-    margin-bottom: 2.1rem;
+    margin-bottom: 2.5rem;
     padding: 0.75rem;
     color: var(--orange);
     font-size: 1rem;
@@ -67,15 +67,15 @@
 }
 
 .form__input-error {
-    color: var(--naranja);
+    color: var(--orange);
     position: absolute;
-    top: 65px;
+    top: 48px;
     left: 0px;
 }
 
 .form__input-error--message {
-    position: relative;
-    top: -28px;
+    position: absolute;
+    top: 48px;
 }
 
 .label-span {
