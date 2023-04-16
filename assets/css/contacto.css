@@ -80,7 +80,7 @@
 
 .label-span {
     position: absolute;
-    top: 12px;
+    top: 15px;
     left: 16px;
     transition: all 0.2s;
     pointer-events: none;
