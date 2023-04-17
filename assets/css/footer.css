@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     background-image: url(../img/bg.jpg);
-    margin-top: 3rem;
     padding: 3rem;
 }
 
