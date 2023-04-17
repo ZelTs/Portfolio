@@ -60,6 +60,7 @@
 .form__input--mensaje {
     display: block;
     overflow: hidden;
+    padding-bottom: 2rem;
     resize: none;
 }
 
@@ -82,7 +83,7 @@
 
 .form__input-error--message {
     position: absolute;
-    top: 48px;
+    top: 75px;
 }
 
 .label-span {
@@ -120,7 +121,6 @@
     background: var(--orange);
     border: none;
     width: 100%;
-    display: none;
 }
 
 .form__btn:disabled {
