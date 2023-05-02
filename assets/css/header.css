@@ -47,3 +47,19 @@
 
     padding: 0.5rem 1rem;
 }
+
+@media (min-width: 768px){
+    .header {
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;    
+    }
+
+    .header__title{
+        font-size: 2rem;
+    }
+
+    .btn__header{
+        font-size: 1.5rem;
+        border: 3.2px solid var(--orange);
+    }
+}

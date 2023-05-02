@@ -76,3 +76,13 @@ body {
 .color__white{
     color: var(--white);
 }
+
+@media (min-width: 768px){
+    .svg__img{
+        width: 52px;
+    }
+
+    .title{
+        font-size: 3.8rem;
+    }
+}

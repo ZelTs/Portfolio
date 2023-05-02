@@ -22,14 +22,14 @@
 .tittle__contacto{
     padding-top: 2rem;
     margin-bottom: 1rem;
-    color: var(--white);
+    color: var(--light);
     text-align: left;
 }
 
 .text__contacto{
     font-size: 0.9rem;
     line-height: 1.2;
-    color: var(--white);
+    color: var(--light);
 }
 
 .input__section{
@@ -128,4 +128,21 @@
     opacity: 0.8;
     transition: all 150ms;
     cursor: not-allowed;
+}
+
+@media (min-width: 768px){
+    .contacto__container{
+        margin-bottom: 6rem;
+    }
+    
+    .text__contacto{
+        font-size: 1.5rem;
+    }
+
+    .form__container{
+
+    }
+    .input__section{
+        width: 50%;
+    }
 }

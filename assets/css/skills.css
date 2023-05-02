@@ -27,10 +27,34 @@
 .img__skills {
     width: 75px;
     height: 75px;
-    transition: 0.4S all;
 }
 
 .desc__img-skill {
     margin-top: 1rem;
     font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+    .skill__box {
+        width: 12%;
+        padding: 2rem 0;
+        margin: 2rem;
+        transition: 0.4S all;
+    }
+    
+    .skill__box:hover{
+        transform: scale(1.05);
+    }
+
+    .img__skills{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+
+    .desc__img-skill{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
 }

@@ -25,7 +25,6 @@
     text-align: center;
     font-weight: bold;
     color: var(--black);
-    transition: 0.4s all;
     margin-bottom: 0.5rem;
 }
 
@@ -60,6 +59,7 @@
 .icon__legend{
     font-size: 0.6rem;
     font-weight: bold;
+    color: var(--black);
     cursor: default;
 }
 
@@ -67,4 +67,46 @@
     padding-top: 0.8rem;
     width: 52px;
     height: 48px;
+}
+
+@media (min-width: 768px){
+
+    .author{
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+    }
+
+    .img__author{
+        width: 420px;
+        height: 420px;
+    }
+
+    .tittle__author{
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .sub__tittle-author{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .author__description{
+        display: none;
+    }
+
+    .svg__size__desc{
+        width: 120px;
+        height: 120px;
+        transition: 0.4s all;
+    }
+
+    .svg__size__desc:hover{
+        stroke:var(--orange);
+        transform: scale(1.05);
+    }
+
+    .icon__legend{
+        font-size: 1.2rem;
+    }
 }

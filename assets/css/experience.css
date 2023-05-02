@@ -68,3 +68,52 @@
     border-radius: 5px;
     box-shadow: 5px 5px 10px var(--dark);
 }
+
+@media (min-width: 768px) {
+    .experience {
+        margin-top: 1rem;
+    }
+
+    .title__exp{
+        margin-bottom: 4rem;
+    }
+
+    .experience__card {
+        flex-direction: row;
+        margin-bottom: 5rem;
+        padding: 3rem 3rem;
+    }
+
+    .exp__name{
+        font-size: 2rem;
+        text-align: justify;
+        margin-bottom: 2rem;
+    }
+
+    .exp__desc{
+        font-size: 1.2rem;
+        padding-top: 0;
+        margin-bottom: 2rem;
+        text-align: justify;
+        line-height: 2rem;
+    }
+
+    .container__btn{
+        justify-content:flex-start;
+        margin: 0.8rem 0 0 0;
+    }
+
+    .boton{
+        font-size: 1.5rem;
+        margin-right: 3rem;
+    }
+
+    .boton:hover{
+        background-color: var(--white);
+        color: var(--dark);
+    }
+
+    .img__exp{
+        width: 50%;
+    }
+}

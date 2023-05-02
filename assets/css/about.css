@@ -4,8 +4,8 @@
     padding-top: 1rem;
 }
 
-.about__tittle{
-    padding-bottom: 1rem;
+.about__title{
+    padding-bottom: 0.35rem;
 }
 
 .about__desc {
@@ -23,4 +23,21 @@
     padding-top: 1.5rem;
     text-align: center;
     font-family: 'Zeyada', cursive;
+}
+
+@media (min-width: 768px){
+    .about__title{
+        margin-bottom: 2rem;
+    }
+
+    .about__desc{
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .about__firma{
+        font-size: 4.2rem;
+        padding-bottom: 2rem;
+    }
 }

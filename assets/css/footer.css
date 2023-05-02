@@ -17,3 +17,18 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@media (min-width:768px){
+    .footer{
+        padding-top: 6rem;
+    }
+
+    .icon__legend{
+        color: var(--white);
+    }
+
+    .footer__title{
+        padding-top: 3rem;
+        font-size: 1.3rem;
+    }
+}
