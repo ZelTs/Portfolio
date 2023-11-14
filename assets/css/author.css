@@ -57,7 +57,7 @@
 }
 
 .icon__legend{
-    font-size: 0.6rem;
+    font-size: 0.6srem;
     font-weight: bold;
     color: var(--black);
     cursor: default;
@@ -83,11 +83,11 @@
 
     .tittle__author{
         font-size: 5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .sub__tittle-author{
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin-bottom: 2rem;
     }
 
@@ -106,7 +106,5 @@
         transform: scale(1.05);
     }
 
-    .icon__legend{
-        font-size: 1.2rem;
-    }
+
 }

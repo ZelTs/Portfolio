@@ -77,6 +77,14 @@ body {
     color: var(--white);
 }
 
+.color__dark{
+    color: var(--dark);
+}
+
+.bold__text{
+    font-weight: bold;
+}
+
 @media (min-width: 768px){
     .svg__img{
         width: 52px;

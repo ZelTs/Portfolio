@@ -36,7 +36,7 @@
 
 @media (min-width: 768px) {
     .skill__box {
-        width: 12%;
+        width: 15%;
         padding: 2rem 0;
         margin: 2rem;
         transition: 0.4S all;

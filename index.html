@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="assets/css/experience.css">
     <link rel="stylesheet" href="assets/css/contacto.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/end.css">
     <title>ZelTs</title>
 
 </head>
@@ -45,11 +46,13 @@
             </svg>
         </section>
         <!-- Botón Contacto -->
+        <!--
         <a href="#contacto" class="btn__header">C o n t a c t o</a>
+    -->
     </header>
     <main>
         <!-- author.css -->
-        <section class="author container">
+        <section class="author container" id="contacto">
             <div class="info__author-container">
                 <img class="img__author" src="assets/img/zelts.jpg" alt="Daniel Hdz">
                 <div>
@@ -57,8 +60,7 @@
                         <p class="title tittle__author animate__animated animate__fadeIn animate__delay-1s">Daniel
                             Hernández</p>
                         <p class="sub__tittle sub__tittle-author animate__animated animate__fadeIn animate__delay-2s">
-                            Web
-                            Developer</p>
+                            QA Tester</p>
                     </div>
                     <div class="icons">
                         <div class="icons__container">
@@ -122,14 +124,13 @@
         <section class="about container">
             <h2 class="about__title title title__section">Sobre Mi</h2>
             <p class="about__desc">
-                Soy un técnico en computación que desea mejorar su calidad de vida a través del desarrollo
-                de páginas web, iniciando así una carrera profesional en el área de la tecnología.
-                Actualmente vivo en México a aproximadamente 1 hora de la capital del país, tengo 27 años
-                y me apasiona la tecnología.<br><br>Gracias al programa <span class="text__link-orange">Oracle
-                    ONE</span>
-                he aprendido herramientas muy útiles y necesarias para el desarrollo de páginas web en la actualidad.
-                Además, trabajo de manera independiente en proyectos de creación de sitios web con <span
-                    class="text__link-orange">WordPress</span>.
+                Soy un técnico en computación que desea mejorar su calidad de vida, inicié mi carrera
+                profesional como <span class="text__link-orange">Video Game Tester</span> en 2023 y estoy en busca de
+                nuevas oportunidades de crecimiento y experiencias para mejorar en mi ámbito profesional.
+                <br><br>
+                Actualmente vivo en la CDMX, trabajo de manera independiente en creación de páginas web y en QA
+                de anuncios personalizados en internet para TELUS International, tengo 28 años y me apasiona la
+                tecnología.<br>
             </p>
             <p class="about__firma">E Daniel Hernández M</p>
         </section>
@@ -384,12 +385,92 @@
                     </svg>
                     <p class="desc__img-skill">Figma</p>
                 </div>
+                <!-- JIRA -->
+                <div class="skill__box">
+
+                    <p class="desc__img-skill">JIRA</p>
+                    <svg class="img__skills" width="1667" height="2500" preserveAspectRatio="xMidYMid" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 -30.632388516510233 255.324 285.95638851651023">
+                        <linearGradient id="a">
+                            <stop offset=".18" stop-color="#0052cc" />
+                            <stop offset="1" stop-color="#2684ff" />
+                        </linearGradient>
+                        <linearGradient id="b" x1="98.031%" x2="58.888%" xlink:href="#a" y1=".161%" y2="40.766%" />
+                        <linearGradient id="c" x1="100.665%" x2="55.402%" xlink:href="#a" y1=".455%" y2="44.727%" />
+                        <path
+                            d="M244.658 0H121.707a55.502 55.502 0 0 0 55.502 55.502h22.649V77.37c.02 30.625 24.841 55.447 55.466 55.467V10.666C255.324 4.777 250.55 0 244.658 0z"
+                            fill="#2684ff" />
+                        <path
+                            d="M183.822 61.262H60.872c.019 30.625 24.84 55.447 55.466 55.467h22.649v21.938c.039 30.625 24.877 55.43 55.502 55.43V71.93c0-5.891-4.776-10.667-10.667-10.667z"
+                            fill="url(#b)" />
+                        <path
+                            d="M122.951 122.489H0c0 30.653 24.85 55.502 55.502 55.502h22.72v21.867c.02 30.597 24.798 55.408 55.396 55.466V133.156c0-5.891-4.776-10.667-10.667-10.667z"
+                            fill="url(#c)" />
+                    </svg>
+                </div>
             </div>
         </section>
 
         <!-- experience.css -->
         <section class="experience container">
             <h2 class="title__exp title title__section">Experiencia</h2>
+
+            <!-- Lionbridge    -->
+            <section class="experience__info">
+
+                <div class="experience__card-exp xp__card">
+                    <img class="img__exp-w" src="assets/img/lb.jpg" alt="Lionbridgame">
+                    <div class="text__exp-container xp__text-container">
+                        <div class="exp__header">
+                            <p class="exp__name">Test Associate I</p>
+                        </div>
+                        <p class="exp__desc"> Actualmente trabajo como
+                            <span class="text__link-orange">Video Game Tester </span>
+                            en Lionbridge Games, aquí he adquirido conocimiento práctico de diferentes
+                            metodologías de control de calidad, el uso de herramientas como JIRA para
+                            el seguimiento y documentación de errores, ejecutando casos de prueba especifícos
+                            para una o más características en base a los estándares y requisitos del cliente.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience__card-exp xp__card">
+
+                    <div class="text__exp-container xp__text-container">
+                        <div class="exp__header">
+                            <p class="exp__name">Proyecto "COD: MW3" </p>
+                        </div>
+                        <p class="exp__desc">Participé como QA Tester en la entrega del videjuego
+                            <a href="https://www.callofduty.com/es/modernwarfare3" target="_blank">
+                                <span class="text__link-orange">Call Of Duty: Modern Warfare 3</span>
+                            </a>
+                            , el cuál fue catalogado como el shooter más esperado del año (2023) parte de una
+                            franquicia con reconocimiento a nivel mundial,
+                            <b>
+                                <a href="https://www.sledgehammergames.com/" target="_blank">
+                                    <span class="text__link-orange bold__text"> ACTIVISION</span>
+                                </a></b>. <br>
+                            Durante este proyecto trabajé en conjunto con diferentes estudios de desarrollo
+                            como
+                            <a href="https://www.infinityward.com/" target="_blank">
+                                <span class="text__link-orange bold__text">Infinity Ward</span>,
+                            </a>
+                            <a href="https://www.sledgehammergames.com/" target="_blank">
+                                <span class="text__link-orange bold__text">Sledgehammer Games</span>,
+                            </a>
+                            <a href="https://www.ravensoftware.com/" target="_blank">
+                                <span class="text__link-orange bold__text">Raven Software</span>,
+                            </a> entre otros.
+
+
+                        </p>
+                    </div>
+                    <img class="img__exp-w" src="assets/img/COD.jpg" alt="COD: MW3">
+                </div>
+            </section>
+
+            <h2 class="title__exp title title__section"><br>Desarrollo Web</h2>
 
             <!-- Encriptador    -->
             <section class="experience__card">
@@ -402,9 +483,9 @@
                             class="link__text">(Responsive Desing)</span> en la que puedes encriptar y
                         desencriptar un mensaje, el reto fue lanzado por el programa <span class="link__text">Oracle
                             ONE</span> del que formo parte, la página fue creada utilizando diferentes herramientas como
-                        <span class="link__text">HTML</span>, <span class="link__text">CSS</span> y <span
-                            class="link__text">Java Script</span>, siguiendo un modelo de diseño a través de <span
-                            class="link__text">Figma</span>.
+                        <span class="text__link-orange bold__text">HTML</span>, <span class="text__link-orange bold__text">CSS</span> y <span
+                            class="text__link-orange bold__text">Java Script</span>, siguiendo un modelo de diseño a través de <span
+                            class="text__link-orange bold__text">Figma</span>.
                     </p>
                     <div class="container__btn">
                         <a href="https://github.com/ZelTs/Encriptador" target="_blank">
@@ -424,10 +505,10 @@
                     <div class="exp__header">
                         <p class="exp__name">Appeperia</p>
                     </div>
-                    <p class="exp__desc">Durante el curso <span class="link__text italic__style">"Layouts
+                    <p class="exp__desc">Durante el curso <span class="text__link-orange bold__text italic__style">"Layouts
                             responsivos"</span> desarrollé este diseño para una tienda de aplicaciones, donde me enfoqué
-                        en realizar una interfaz agradable para el usuario <span class="link__text">(UI/UX)</span>
-                        siguiendo un modelo base de <span class="link__text">Figma</span>.</p>
+                        en realizar una interfaz agradable para el usuario <span class="text__link-orange bold__text">(UI/UX)</span>
+                        siguiendo un modelo base de <span class="text__link-orange bold__text">Figma</span>.</p>
                     <div class="container__btn">
                         <a href="https://github.com/ZelTs/Appeperia" target="_blank">
                             <button class="boton btn__repositorio">Repositório</button>
@@ -448,7 +529,7 @@
                         <p class="exp__name">Task Manager</p>
                     </div>
                     <p class="exp__desc">Este administrador de tareas fue creado con HMTL, CSS y Java Script, el
-                        proyecto fue realizado con el fin de manipular el DOM <span class="link__text">(Document Object
+                        proyecto fue realizado con el fin de manipular el DOM <span class="text__link-orange bold__text">(Document Object
                             Model)</span> y trabajar más con Java Script.</p>
                     <div class="container__btn">
                         <a href="https://github.com/ZelTs/Task-Manager" target="_blank">
@@ -469,7 +550,7 @@
                         <p class="exp__name">QR Code Component</p>
                     </div>
                     <p class="exp__desc"> Página web sencilla que muestra un código QR, el reto forma parte de una
-                        sección lanzada por <span class="link__text">Front Mentor</span>, la cual es una página que me
+                        sección lanzada por <span class="text__link-orange bold__text">Front Mentor</span>, la cual es una página que me
                         ha servido para prácticar mis habilidades como desarrollador web.</p>
                     <div class="container__btn">
                         <a href="https://github.com/ZelTs/QR-Challenge-by-FrontMentor" target="_blank">
@@ -484,8 +565,27 @@
             </section>
         </section>
 
-        <!-- Contacto -->
+        <section class="best container">
+            <h2 class="title__exp title title__section best__title">Mejora</h2>
+            <div class="best__section">
 
+                <p class="best__text"> Sigo mejorando mis habilidades continuamente para desarrollar un mejor 
+                    <span class="text__link-orange bold__text">perfil profesional</span>
+                     que se adapte y sea competitivo para la industria actual. <br><br>Agradezco que hayas tomado parte 
+                    de tu tiempo en haber leido y visto un poco de mi trabajo, estamos en 
+                    <a href="#contacto">
+                        <span class="text__link-orange bold__text">contacto</span>.
+                    </a>
+
+                    </p>
+                    <img class="img__exp best__img" src="assets/img/experience wp.jpg" alt="Fondo">
+            </div>
+
+
+        </section>
+
+        <!-- Contacto -->
+        <!-- 
         <section class="contacto__container container">
             <h2 class="title title__section tittle__contacto container"><span id="contacto"></span>Contacto</h2>
             <p class="text__contacto container">¿Quieres contactarme?<br>
@@ -536,18 +636,21 @@
                     <input type="hidden" name="_template" value="table">
                 </form>
             </div>
+        -->
 
-            <!-- form animation -->
-            <div class="bars-menu">
-                <span class="bars-menu__line1"></span>
-                <span class="bars-menu__line2"></span>
-                <span class="bars-menu__line3"></span>
-            </div>
+        <!-- form animation -->
+        <div class="bars-menu">
+            <span class="bars-menu__line1"></span>
+            <span class="bars-menu__line2"></span>
+            <span class="bars-menu__line3"></span>
+        </div>
         </section>
 
+        <!--
         <section class="container insignias">
             <h2 class="title__exp title title__section">Insignias</h2>
         </section>
+        -->
 
         <script type="module" src="assets/js/app.js"></script>
     </main>
@@ -568,7 +671,7 @@
                         <path d="M16 16v-3a2 2 0 0 0 -4 0" />
                     </svg>
                 </a>
-                <span class="icon__legend color__white">LinkedIn</span>
+                <span class="icon__legend__footer color__white">LinkedIn</span>
             </div>
 
             <div class="icons__container">
@@ -581,7 +684,7 @@
                             d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
                     </svg>
                 </a>
-                <span class="icon__legend color__white">Git Hub</span>
+                <span class="icon__legend__footer color__white">Git Hub</span>
             </div>
 
             <div class="icons__container">
@@ -597,7 +700,7 @@
                         <line x1="9" y1="17" x2="15" y2="17" />
                     </svg>
                 </a>
-                <span class="icon__legend color__white">Currículum</span>
+                <span class="icon__legend__footer color__white">Currículum</span>
             </div>
         </div>
         <h2 class="title footer__title">Desarrollado por ZelTs - 2023</h2>
