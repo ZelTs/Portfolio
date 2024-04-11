@@ -95,7 +95,7 @@
 }
 
 .img__exp-w{
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
     box-shadow: 6px 6px 15px var(--dark);
 }
